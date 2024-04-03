@@ -1,0 +1,104 @@
+body{
+   color:gray;
+   text-align: center;
+   font-family: fantasy;
+   text-shadow: 5px 5px 5px blackn;
+   background-color:linear-gradient(rgb(44, 16, 16));
+   background-image: url(Imagem/Arena.jpeg);
+   /*background: radial-gradient(green, red)*/
+   
+
+}
+
+#d1{
+   width: 75px;/*Largura*/
+   height:75px;/*altura*/
+   background-color:rgb(121, 118, 118) ;/*cor de fundo*/
+   color:black;/*cor da letra*/
+   border:5px solid rgb(2, 2, 2);/*solid borda*/
+   margin-left:auto ;/*margem automatica na esquerda*/
+   margin-right:auto ;/*margem automatica na direira*/
+   margin: top 30px ;
+   transform:rotate(30deg) ;
+   -ms-transform:rotate(30deg) ;/
+   -webkit-transform:rotate(35deg);
+   padding: 5px;
+   animation: animation 1s;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+
+#d2{
+   width:100px;/*Largura*/
+   height:75px ;/*altura*/
+   background-color:rgb(121, 118, 118) ;/*cor de fundo*/
+   color:black ;/*cor da letra*/
+   border:5px solid  rgb(2, 2, 2);/**/
+   margin-left:auto ;/*Largura*/
+   margin-right:auto ;/*Largura*/
+   margin: top 30px ;/*Largura*/
+   transform:rotate(30deg) ;/*Largura*/
+   -ms-transform:rotate(30deg) ;/*Largura*/
+   -webkit-transform:rotate(30deg) ;/*Largura*/
+   padding: 5px;
+   animation: animation 1s;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+
+#d3{ 
+    width:100px;
+   height: 100x;
+   background-color:rgb(121, 118, 118) ;
+   color:black ;
+   border:5px solid  rgb(2, 2, 2);
+   margin-left:auto ;
+   margin-right:auto ;
+   margin: top 30px ;
+   transform:rotate(30deg) ;
+   -ms-transform:rotate(30deg) ; 
+     /*Modelbox - conteúdo, espaçamento, borda e margem*/
+   border-style: dashed; /*borda tracejada;*/
+   
+   /* ponto flutuante*/
+   float:none; /*nome=n flutua, right, left*/
+   /*position: fixed; fixo*/
+   /*position: relative: altura posição do elemento, usa top left right para alterar da posição atual para a nova*/   
+   /*position absolute: será Posicionado apartir do canto esquerdo, usa top bottom left right para nova posição*/
+   /* position sticky: parecido com fixo porém fixo em relação a barra de rolagem e n a telar*/
+   /* position static: deixa o elemento estástico, não aceita argumentos com left bottom etc*/
+   padding: 5px;
+   animation: animation 1s;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;   
+}
+#d4{ 
+   width:100px;
+   height:100px;
+   background-color:rgb(121, 118, 118) ;
+   color: black;
+   border:5px solid rgb(2, 2, 2);
+   margin-left:auto;/*Imagem automatica a esquerda, direita e para cima*/
+   margin-right:auto;
+   margin: top 30px;
+   border-style: groove;
+   animation: animation 1s;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+@keyframes animation{
+from{box shadow: 10px 10px 10px  white }
+   to{box-shadow: 10px 10px 10px white}
+}
+img{
+   
+   display: inline-block; /*organize os elementos lado a lado*/
+   border: 1px solid white ;
+   border-radius: 4px;
+   padding: 5px;
+   animation: animation 1s;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+   
+  

@@ -1,0 +1,76 @@
+d1{
+    width:100px;/*Largura*/
+    height:75px ;/*altura*/
+    background-color:rgb(red, green, blue) ;/*cor de fundo*/
+    color:rgb(red, green, blue) ;/*cor da letra*/
+    border:5px solid rgb(red, green, blue);/*solid borda*/
+    margin-left:auto ;/*margem automatica na esquerda*/
+    margin-right:auto ;/*margem automatica na direira*/
+    margin: top 30px ;
+    transform:rotate(30deg) ;
+    -ms-transform:rotate(30deg) ;/
+    -webkit-transform:rotate(35deg) ;
+}
+d2{
+    width:100px;/*Largura*/
+    height:75px ;/*altura*/
+    background-color:rgb(red, green, blue) ;/*cor de fundo*/
+    color:rgb(red, green, blue) ;/*cor da letra*/
+    border:5px solid rgb(red, green, blue);/**/
+    margin-left:auto ;/*Largura*/
+    margin-right:auto ;/*Largura*/
+    margin: top 30px ;/*Largura*/
+    transform:rotate(30deg) ;/*Largura*/
+    -ms-transform:rotate(30deg) ;/*Largura*/
+    -webkit-transform:rotate(35deg) ;/*Largura*/
+}
+d3{ 
+     width:100px;
+    height:75px 
+    background-color:rgb(red, green, blue) ;
+    color:rgb(red, green, blue) ;
+    border:5px solid rgb(red, green, blue);
+    margin-left:auto ;
+    margin-right:auto ;
+    margin: top 30px ;
+    transform:rotate(30deg) ;
+    -ms-transform:rotate(30deg) ; 
+      /*Modelbox - conteúdo, espaçamento, borda e margem*/
+    border-style: dashed; /*borda tracejada;*/
+    /* ponto flutuante*/
+    float:none; /*nome=n flutua, right, left*/
+    /*position: fixed; fixo*/
+    /*position: relative: altura posição do elemento, usa top left right para alterar*/   
+    /*position absolute: será Posicionado apartir do canto esquerdo, usa top*/
+    /* position sticky: parecido com fixo porém fixo em relação a barra de */
+    /* position static: deixa o elemento estástico, não aceita argumentos com left */
+}
+d4{ 
+    width:140px;
+    height:70px;
+    background-color:rgb(red, green, blue) ;
+    color:rgb(red, green, blue) ;
+    border:5px solid rgb(red, green, blue);
+    margin-left:auto;/*Imagem automatica a esquerda, d*/
+    margin-right:auto;
+    margin: top 30px;
+    border-style: groove;
+    animation: animation 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+from{box shadow: 10px 10px 10px rgb;}
+    to{box-shadow: 10px 10px 10px rgb(red, green, blue)}
+@keyframes animation{...
+
+}
+}
+img{
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+   
